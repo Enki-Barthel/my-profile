@@ -1,0 +1,113 @@
+/* Default style */
+
+body {
+    background-color: #000000;
+    color: #CEC075;
+    font-size: 19px;
+}
+
+h1 {
+    color: #DD403A;
+    font-weight: 700;
+}
+
+h2 {
+    color: #A3320B;
+    font-weight: 600;
+}
+
+a {
+    color: #F49390;
+}
+
+a:hover {
+    color: #D9B8C4;
+    transition: color 0.3s ease;
+}
+
+/* Classes-style or useful styles */
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-white-border {
+    border: 3px solid darkgoldenrod;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 60px;
+    width: 800px;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+}
+
+.card-black {
+    margin: 50px auto;
+    padding: 50px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,1);
+}
+
+.no-top-margin {
+    margin-top: 0px;
+}
+
+.no-btm-margin {
+    margin-bottom: 0px;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.Grenze-Gotisch {
+    font-family: 'Grenze Gotisch', cursive;
+}
+.Kufam {
+    font-family: 'Kufam', cursive;
+}
+.Turret-Road {
+    font-family: 'Turret Road', cursive;
+}
+
+/* id-style or small tweaks */
+
+
+/* Responsive design */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
